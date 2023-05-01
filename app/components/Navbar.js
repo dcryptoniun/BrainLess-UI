@@ -1,5 +1,7 @@
 import { Bruno_Ace_SC } from "next/font/google";
 import Link from "next/link";
+import github from "../assets/github.svg";
+import Image from "next/image";
 
 const bruno = Bruno_Ace_SC({
   subsets: ["latin"],
@@ -17,7 +19,17 @@ export default function Navbar() {
         >
           <Link href="/">Wind Tails</Link>
         </div>
-        <div>links</div>
+        <div>
+          <Link href="https://github.com/dcryptoniun/Wind-Tails" target="blank">
+            <Image
+              width={25}
+              height={25}
+              src={github}
+              alt="github link"
+              className="invert dark:invert-0"
+            />
+          </Link>
+        </div>
       </div>
     </div>
   );
