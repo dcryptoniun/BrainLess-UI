@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
@@ -15,11 +16,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} font-sans`}>
-        <div>
-          <Navbar />
+      <body
+        className={`${montserrat.variable} font-mons flex   text-slate-200`}
+      >
+        <div className="w-full">
+          <div className="fixed z-20 w-full">
+            <Navbar />
+          </div>
+          <div className="fixed ">
+            <Sidebar />
+          </div>
+
+          <div>{children}</div>
         </div>
-        {children}
       </body>
     </html>
   );
