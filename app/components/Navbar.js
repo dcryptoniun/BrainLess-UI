@@ -7,7 +7,7 @@ const bruno = Bruno_Ace_SC({
   subsets: ["latin"],
   variable: "--font-bruno",
   weight: "400",
-  fallback: ["Montserrat", "sans"],
+  fallback: ["sans"],
 });
 
 export default function Navbar() {
