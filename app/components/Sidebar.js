@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const links = [
+  { text: "Playground", href: "/playground" },
   { text: "Button", href: "#" },
   { text: "Link", href: "#" },
 ];
