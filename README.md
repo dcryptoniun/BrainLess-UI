@@ -1,12 +1,11 @@
 # Wind-Tails
-<!-- <details>
-<summary><h2>Project Overview</h2></summary> -->
+<div style="text-align: justify">
+We all hear that Tailwind CSS is a great way to rapidly build custom styles for your application, but never does anyone mention the hassle one has to go over to find the right classes for your envisioned style. Fret not! Presenting <b>Wind-Tails</b>, an Open Source application for Tailwind CSS Prebuilt Components. You don't need to go anywhere to search for your required tailwind classes. Find here, a visual representation of the effects of various classes, along with a playground which shows in real-time the effect of tweaking various parameters of the class. This allows you to pick a base style and tweak parts of it, as per your requirement! Currently supports the following components,
 
-We all hear that Tailwind CSS is a great way to rapidly build custom styles for your application, but never does anyone mention the hassle one has to go over to find the right classes for your envisioned style. Fret not! Presenting <b>Wind-Tails</b>, an Open Source application for Tailwind CSS Prebuilt Components. You don't need to go anywhere to search for your required tailwind classes. Find here, a visual representation of the effects of various classes, along with a playground which shows in real-time the effect of tweaking various parameters of the class. This allows you to pick a base style and tweak parts of it, as per your requirement! Currently supports the following elements,
+</div>
+<br>  
 
 - Buttons
-<!-- 
-</details> -->
 
 <details>
 
@@ -207,6 +206,10 @@ For more details refer [How to write better git commit messages](https://www.fre
 
 <details>
 <summary><h2>License Information</h2></summary>
+
+<div style="text-align: justify">
 This project is under the MIT License. The MIT license gives express permission for users to reuse code for any purpose, even if code is part of proprietary software. As long as users include the original copy of the MIT license in their distribution, they can make changes or modifications to the code to suit their own needs.
+
+</div>
 
 </details>
