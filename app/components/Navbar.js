@@ -21,13 +21,7 @@ export default function Navbar() {
         </div>
         <div>
           <Link href="https://github.com/dcryptoniun/Wind-Tails" target="blank">
-            <Image
-              width={25}
-              height={25}
-              src={github}
-              alt="github link"
-              className="invert dark:invert-0"
-            />
+            <Image width={25} height={25} src={github} alt="github link" />
           </Link>
         </div>
       </div>

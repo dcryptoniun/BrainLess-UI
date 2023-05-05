@@ -1,5 +1,6 @@
-import Navbar from "./components/Navbar";
-import "./globals.css";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -21,6 +22,9 @@ export default function RootLayout({ children }) {
         <div className="w-full">
           <div className="fixed z-20 w-full">
             <Navbar />
+          </div>
+          <div className="fixed ">
+            <Sidebar />
           </div>
 
           <div>{children}</div>
