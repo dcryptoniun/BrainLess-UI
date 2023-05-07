@@ -1,9 +1,9 @@
-import cssjson from "../../data/Buttons";
+import cssjson from "@/app/data/Buttons";
 
 export default function Buttons() {
   return (
     <div className="w-full h-screen ">
-      <div className="grid items-center h-auto gap-8 ml-24 md:grid-cols-2 xl:grid-cols-3 md:ml-52 ">
+      <div className="grid items-center h-auto gap-8 p-5 pt-16 ml-24 md:grid-cols-2 xl:grid-cols-3 md:ml-52 ">
         {cssjson.elements.map((element) => (
           <div
             key={element.id}

@@ -17,7 +17,9 @@ export default function Navbar() {
         <div
           className={`${bruno.variable} font-bruno text-2xl bg-gradient-to-r from-teal-500 to-fuchsia-500 text-transparent bg-clip-text hover:bg-gradient-to-l`}
         >
-          <Link href="/">Wind Tails</Link>
+          <Link href="/" alt="logo">
+            Wind Tails
+          </Link>
         </div>
         <div className="flex items-center justify-center gap-8 p-2 ">
           <Link href="/" alt="home button" className="hover:text-fuchsia-500">
@@ -25,7 +27,7 @@ export default function Navbar() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokewidth="1.5"
               stroke="currentColor"
               class="w-6 h-6"
             >
