@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Examples() {
   return (
-    <div className="flex w-full h-full gap-4 p-5  rounded-xl bg-white/10">
+    <div className="hidden w-full gap-4 p-5 md:flex rounded-xl bg-white/10">
       <div className="flex flex-col w-full h-full gap-4">
         <div className="flex justify-between ">
           <button className="w-32 p-1 transition-all bg-teal-500 border rounded-lg hover:duration-100 hover:scale-150 hover:bg-teal-800 ">
@@ -121,7 +121,7 @@ export default function Examples() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-col items-center h-full gap-1 p-2 border w-fit rounded-xl border-amber-600 bg-gradient-to-b from-teal-900 to-slate-900 hover:bg-gradient-to-t ">
+      <div className="flex flex-col items-center justify-around h-full gap-1 p-2 border w-fit rounded-xl border-amber-600 bg-gradient-to-b from-teal-900 to-slate-900 hover:bg-gradient-to-t ">
         <h1 className="font-mono text-sm font-extrabold text-transparent bg-gradient-to-r from-teal-400 to-fuchsia-600 bg-clip-text hover:bg-gradient-to-l ">
           Windy
         </h1>

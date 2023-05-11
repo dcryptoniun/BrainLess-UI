@@ -20,14 +20,15 @@ export default function RootLayout({ children }) {
         className={`${montserrat.variable} font-mons flex   text-slate-200`}
       >
         <div className="w-full">
-          <div className="fixed z-20 w-full">
+          <div className="sticky top-0 z-20 w-full">
             <Navbar />
           </div>
-
-          <div className="fixed overflow-y-auto">
-            <Sidebar />
+          <div className="flex">
+            <div className="fixed overflow-y-auto top-24">
+              <Sidebar />
+            </div>
+            <div className="w-full h-screen p-5 ">{children}</div>
           </div>
-          <div className="overflow-y-auto">{children}</div>
         </div>
       </body>
     </html>
