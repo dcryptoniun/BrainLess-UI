@@ -3,8 +3,8 @@ import Examples from "./components/Examples";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen p-5 pt-16">
-      <div className="flex flex-col items-center justify-center w-full h-full gap-8">
+    <main className="w-full h-screen p-5 pt-16 pl-20 md:pl-52">
+      <div className="flex flex-col items-center justify-center w-full h-full gap-8 p-5 my-5">
         <div className="grid gap-4 text-center md:grid-cols-2">
           <div className="flex flex-col p-2">
             <h1 className="p-1 font-mono text-5xl font-extrabold text-center text-transparent md:text-start bg-gradient-to-r from-teal-400 to-fuchsia-600 bg-clip-text hover:bg-gradient-to-l ">

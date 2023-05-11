@@ -1,6 +1,7 @@
 import Navbar from "@/app/components/Navbar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import Sidebar from "./components/Sidebar";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -22,7 +23,11 @@ export default function RootLayout({ children }) {
           <div className="fixed z-20 w-full">
             <Navbar />
           </div>
-          <div>{children}</div>
+
+          <div className="fixed overflow-y-auto">
+            <Sidebar />
+          </div>
+          <div className="overflow-y-auto">{children}</div>
         </div>
       </body>
     </html>
