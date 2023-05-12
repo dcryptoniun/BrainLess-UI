@@ -124,6 +124,48 @@ const cssjson = {
         // add more elements
       ],
     },
+    {
+      id: "7",
+      title: "Box Shadows",
+      description:
+        "Buttons or links with different box shadows for a three-dimensional effect",
+      elements: [
+        {
+          id: "1",
+          css: "bg-blue-500 text-white p-2 shadow-sm",
+        },
+        {
+          id: "2",
+          css: "bg-green-500 text-white p-2 shadow-md",
+        },
+        {
+          id: "3",
+          css: "bg-yellow-500 text-white p-2 shadow-lg",
+        },
+      ],
+    },
+    {
+      id: "8",
+      title: "Icon / animation Buttons",
+      description: "Buttons with icons / animation ",
+      elements: [
+        {
+          id: "1",
+          css: "bg-blue-500 text-white p-2 rounded-lg flex items-center",
+          icon: "w-6 h-6 rounded-full border-2 m-1 border-b-slate-500 animate-spin",
+        },
+        {
+          id: "2",
+          css: "bg-green-500 text-white p-2 rounded-lg flex items-center",
+          icon: "w-2 h-2 absolute right-2 top-1 rounded-full  m-1 bg-red-500 animate-ping",
+        },
+        {
+          id: "3",
+          css: "bg-yellow-500 text-white group p-2 rounded-lg flex items-center",
+          icon: "w-5 h-5 rounded-full group-hover:bg-red-500 bg-green-500  m-1 shadow-md animate-bounce ",
+        },
+      ],
+    },
 
     // add more categories
   ],

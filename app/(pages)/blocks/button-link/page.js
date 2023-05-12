@@ -22,10 +22,12 @@ export default function Buttons() {
               {category.elements.map((element) => (
                 <div
                   key={element.id}
-                  className="grid items-center justify-center h-auto grid-cols-2 gap-4 p-5 border-2 border-r-teal-500 border-t-fuchsia-500 md:flex-row rounded-2xl border-b-teal-500 border-l-fuchsia-500 hover:border-l-teal-500 hover:border-b-fuchsia-500 hover:border-r-fuchsia-500 hover:border-t-teal-500"
+                  className="grid items-center justify-center h-auto grid-cols-2 gap-4 p-5 border-2 bg-white/10 border-r-teal-500 border-t-fuchsia-500 md:flex-row rounded-2xl border-b-teal-500 border-l-fuchsia-500 hover:border-l-teal-500 hover:border-b-fuchsia-500 hover:border-r-fuchsia-500 hover:border-t-teal-500"
                 >
-                  <div className="relative flex items-center justify-center w-auto p-2">
-                    <button className={element.css}>Wind Tails</button>
+                  <div className="relative flex items-center justify-center p-2 w-fit bg-white/10">
+                    <button className={element.css}>
+                      <div className={element.icon}></div> Wind Tails
+                    </button>
                   </div>
                   <div className="relative w-full">
                     <textarea
@@ -33,6 +35,16 @@ export default function Buttons() {
                       className="w-full p-2 text-white bg-gray-900 rounded"
                       readOnly
                     />
+                    {element.icon && (
+                      <>
+                        <span>icon:</span>
+                        <textarea
+                          value={`<div className="${element.icon}"></div>`}
+                          className="w-full p-2 text-white bg-gray-900 rounded"
+                          readOnly
+                        />
+                      </>
+                    )}
                     <button
                       className="absolute p-1 text-white rounded -top-5 -right-5 hover:text-teal-600"
                       onClick={() => handleCopyClick(element.css)}
