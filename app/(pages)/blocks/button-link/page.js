@@ -24,7 +24,7 @@ export default function Buttons() {
                   key={element.id}
                   className="grid items-center justify-center h-auto grid-cols-2 gap-4 p-5 border-2 border-r-teal-500 border-t-fuchsia-500 md:flex-row rounded-2xl border-b-teal-500 border-l-fuchsia-500 hover:border-l-teal-500 hover:border-b-fuchsia-500 hover:border-r-fuchsia-500 hover:border-t-teal-500"
                 >
-                  <div className="relative flex items-center justify-center w-1/2 p-2">
+                  <div className="relative flex items-center justify-center w-auto p-2">
                     <button className={element.css}>Wind Tails</button>
                   </div>
                   <div className="relative w-full">
@@ -34,7 +34,7 @@ export default function Buttons() {
                       readOnly
                     />
                     <button
-                      className="absolute p-1 text-white rounded -top-5 -right-5 hover:bg-teal-600"
+                      className="absolute p-1 text-white rounded -top-5 -right-5 hover:text-teal-600"
                       onClick={() => handleCopyClick(element.css)}
                     >
                       {copied ? (

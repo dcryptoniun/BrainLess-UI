@@ -3,13 +3,13 @@ import Link from "next/link";
 const links = [
   { text: "Home", href: "/" },
   { text: "Playground", href: "/playground" },
-  { text: "Button", href: "/blocks/button" },
-  { text: "Link", href: "/blocks/link" },
+  { text: "Button / Link", href: "/blocks/button-link" },
+  // { text: "Link", href: "/blocks/link" },
 ];
 
 export default function Sidebar() {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen mt-16 overflow-y-auto bg-white/5 ">
+    <div className="flex flex-col items-center w-full overflow-y-auto bg-white/5 ">
       <div className="p-auto">
         <div className="flex flex-col w-24 gap-4 md:w-52 ">
           {links.map((link, index) => (
