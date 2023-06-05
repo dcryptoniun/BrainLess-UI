@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Normalbutton() {
+export const Normalbutton = () => {
   return (
     <div className="flex flex-col items-center justify-center h-auto gap-8 p-5 m-8 bg-gray-800 border border-gray-700 lg:flex-row lg:h-40 rounded-2xl ">
       <button className="p-2 text-sm bg-green-500 hover:bg-green-800">
@@ -14,9 +14,9 @@ export function Normalbutton() {
       </button>
     </div>
   );
-}
+};
 
-export function Borderbutton() {
+export const Borderbutton = () => {
   return (
     <div className="flex flex-col items-center justify-center h-auto gap-8 p-5 m-8 bg-gray-800 border border-gray-700 lg:flex-row lg:h-40 rounded-2xl ">
       <button className="p-2 text-sm bg-green-500 border hover:bg-green-800">
@@ -30,9 +30,9 @@ export function Borderbutton() {
       </button>
     </div>
   );
-}
+};
 
-export function Outlinebutton() {
+export const Outlinebutton = () => {
   return (
     <div className="flex flex-col items-center justify-center w-auto h-auto gap-8 p-5 m-8 bg-gray-800 border border-gray-700 lg:flex-row lg:h-40 rounded-2xl ">
       <button className="p-2 text-sm bg-green-500 outline-white hover:bg-green-800">
@@ -46,4 +46,4 @@ export function Outlinebutton() {
       </button>
     </div>
   );
-}
+};
