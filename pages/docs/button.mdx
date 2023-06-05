@@ -1,0 +1,20 @@
+import React from "react";
+import { Normalbutton, Borderbutton, Outlinebutton } from "../../db/Button.jsx";
+
+<Normalbutton />
+
+<Borderbutton />
+
+<Outlinebutton />
+
+```jsx filename="testbutton" copy
+import React from "react";
+
+export default function Testbutton() {
+  return (
+    <button className="p-5 text-xl text-red-500 bg-green-500 border hover:bg-green-800">
+      Testbutton
+    </button>
+  );
+}
+```

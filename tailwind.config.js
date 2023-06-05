@@ -5,6 +5,8 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./db/**/*.{js,ts,jsx,tsx,mdx}",
+    "./theme.config.js",
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +15,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#C400FF",
+        light: "#f2fcfb",
+        dark: "#291d29",
+        blight: "#e6f9f8",
+        bdark: "#3f283f",
       },
     },
   },
