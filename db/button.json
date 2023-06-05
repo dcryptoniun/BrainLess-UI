@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Category 1",
+    "label": "Category Label 1",
+    "description": "Category Description 1",
+    "buttons": [
+      {
+        "size": "Small",
+        "class": "rounded-md bg-white px-4 py-2 text-sm font-medium text-black transition-all hover:bg-white/90 disabled:bg-gray-400"
+      },
+      {
+        "size": "Medium",
+        "class": "text-lg rounded-md bg-white px-8 py-2.5 font-medium text-black transition-all hover:bg-white/90 disabled:bg-gray-400"
+      },
+      {
+        "size": "Large",
+        "class": "rounded-md bg-white px-10 py-3 text-2xl font-medium text-black transition-all hover:bg-white/90 disabled:bg-gray-400"
+      }
+    ]
+  },
+  {
+    "category": "Category 2",
+    "label": "Category Label 2",
+    "description": "Category Description 2",
+    "buttons": [
+      {
+        "size": "Small",
+        "class": "rounded-md bg-gray-200 px-4 py-2 text-sm font-medium text-black transition-all hover:bg-gray-200/90 disabled:bg-gray-400"
+      },
+      {
+        "size": "Medium",
+        "class": "text-lg rounded-md bg-gray-200 px-8 py-2.5 font-medium text-black transition-all hover:bg-gray-200/90 disabled:bg-gray-400"
+      },
+      {
+        "size": "Large",
+        "class": "rounded-md bg-gray-200 px-10 py-3 text-2xl font-medium text-black transition-all hover:bg-gray-200/90 disabled:bg-gray-400"
+      }
+    ]
+  },
+  {
+    "category": "Category 3",
+    "label": "Category Label 3",
+    "description": "Category Description 3",
+    "buttons": [
+      {
+        "size": "Small",
+        "class": "rounded-md bg-blue-500 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-blue-700 disabled:bg-gray-400"
+      },
+      {
+        "size": "Medium",
+        "class": "text-lg rounded-md bg-blue-500 px-8 py-2.5 font-medium text-white transition-all hover:bg-blue-700 disabled:bg-gray-400"
+      },
+      {
+        "size": "Large",
+        "class": "rounded-md bg-blue-500 px-10 py-3 text-2xl font-medium text-white transition-all hover:bg-blue-700 disabled:bg-gray-400"
+      }
+    ]
+  }
+]

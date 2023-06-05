@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react'
+import Testbutton from '../../db/Testbutton'
 
 export default function test() {
   return (
-    <div>
-      <h1>test</h1>
-    </div>
-  );
+    <Testbutton/>
+  )
 }

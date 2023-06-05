@@ -26,8 +26,10 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="absolute w-40 h-40 rounded-full opacity-10 left-16 top-16 bg-primary -z-50 blur-xl "></div>
-      <div className="absolute h-40 bg-teal-500 rounded-full opacity-10 w-36 right-16 bottom-16 -z-50 blur-xl "></div>
+      <div className="absolute w-full h-full -z-50 ">
+        <div className="sticky top-0 w-40 h-40 rounded-full opacity-20 left-16 bg-primary -z-50 blur-xl"></div>
+        <div className="fixed h-40 bg-teal-500 rounded-full opacity-20 w-36 right-16 bottom-16 -z-50 blur-xl "></div>
+      </div>
     </div>
   );
 }
