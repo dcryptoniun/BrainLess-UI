@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   logo: (
@@ -13,15 +15,6 @@ export default {
     light: 173,
   },
   footer: {
-    text: () => (
-      <a
-        href="https://github.com/dcryptoniun/BrainLess-UI"
-        target="_blank"
-        rel="noopener"
-        className="inline-flex items-center font-semibold text-current no-underline"
-      >
-        <span>BrainLess-UI</span>
-      </a>
-    ),
+    text: () => <Footer />,
   },
 };

@@ -7,7 +7,10 @@ export default function Footer() {
     <div className="flex items-start justify-between w-full h-auto p-2 px-3 ">
       <div>
         <h1 className="font-mono font-semibold text-primary">BrainLess UI</h1>
-        <h2 className="text-xs opacity-60 ">MIT © 2023</h2>
+        <h2 className="text-xs opacity-60 ">
+          {" "}
+          © MIT {new Date().getFullYear()}
+        </h2>
       </div>
       <div>
         <Link
@@ -42,4 +45,3 @@ export default function Footer() {
     </div>
   );
 }
-2;
