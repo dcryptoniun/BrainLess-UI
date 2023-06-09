@@ -5,7 +5,7 @@ import ThemeSwitch from "./components/ThemeSwitch";
 export default {
   docsRepositoryBase: "https://github.com/dcryptoniun/BrainLess-UI/",
   logo: (
-    <span className="inline-flex items-center text-xl font-bold text-current no-underline">
+    <span className="inline-flex items-center text-xl font-bold no-underline ">
       BrainLess UI
     </span>
   ),

@@ -6,7 +6,12 @@ export default function Footer() {
   return (
     <div className="flex items-start justify-between w-full h-auto p-2 px-3 ">
       <div>
-        <h1 className="font-mono font-semibold text-primary">BrainLess UI</h1>
+        <Link
+          href="/"
+          className="font-mono font-semibold text-primary dark:text-dprimary"
+        >
+          BrainLess UI
+        </Link>
         <h2 className="text-xs opacity-60 ">
           {" "}
           © MIT {new Date().getFullYear()}
@@ -16,14 +21,14 @@ export default function Footer() {
         <Link
           href="#"
           alt="github"
-          className="flex items-center justify-center h-full"
+          className="flex items-center justify-center h-full rounded-full hover:bg-secondary dark:hover:bg-dsecondary "
         >
           <Image
             src="/github.svg"
             width={24}
             height={24}
             alt="github"
-            className=" invert dark:invert-0"
+            className="invert dark:invert-0 hover:scale-105"
           />
         </Link>
       </div>
@@ -31,12 +36,20 @@ export default function Footer() {
         <h1 className="font-semibold">Links</h1>
         <div className="gap-4 ">
           <div>
-            <Link className="text-xs font-semibold" href="/docs" alt="docs">
+            <Link
+              className="text-xs font-semibold hover:text-secondary hover:underline hover:dark:text-dsecondary"
+              href="/docs"
+              alt="docs"
+            >
               Getting Started
             </Link>
           </div>
           <div>
-            <Link className="text-xs font-semibold" href="/docs" alt="docs">
+            <Link
+              className="text-xs font-semibold hover:underline hover:text-secondary hover:dark:text-dsecondary"
+              href="/docs"
+              alt="docs"
+            >
               Components
             </Link>
           </div>

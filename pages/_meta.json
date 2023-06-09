@@ -1,12 +1,21 @@
 {
   "index": {
-    "title": "Introduction",
-    "type": "page",
-    "hidden": true,
-    "display": "hidden"
+    "title": "Home",
+    "type": "page"
   },
   "docs": {
     "title": "Docs",
     "type": "page"
+  },
+  "components": {
+    "title": "Components",
+    "type": "page",
+    "href": "/docs/components"
+  },
+  "button": {
+    "title": "Button",
+    "type": "page",
+    "hidden": true,
+    "display": "hidden"
   }
 }
