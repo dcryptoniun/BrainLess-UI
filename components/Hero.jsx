@@ -11,14 +11,14 @@ export default function Hero() {
         <p>Just Copy & paste No Brain needed..😎</p>
         <div className="flex gap-8 p-5 ">
           <Link
-            className="p-2 text-xl font-semibold rounded-lg bg-primary hover:bg-fuchsia-600"
+            className="p-2 text-xl font-semibold rounded-lg hover:scale-110 dark:bg-dprimary dark:hover:bg-dsecondary bg-primary hover:bg-secondary"
             href="/docs/getting-started"
             alt="Getting Started"
           >
             Getting Started
           </Link>
           <Link
-            className="p-2 text-xl font-semibold border-2 rounded-lg border-primary outline text-primary hover:text-fuchsia-600"
+            className="p-2 text-xl font-semibold border-2 rounded-lg border-primary dark:border-dprimary hover:border-secondary dark:hover:border-dsecondary hover:scale-110 outline text-primary dark:text-dprimary hover:text-secondary dark:hover:text-dsecondary"
             href="/docs/components"
             alt="components"
           >
@@ -27,8 +27,8 @@ export default function Hero() {
         </div>
       </div>
       <div className="absolute w-full h-full -z-50 ">
-        <div className="sticky top-0 w-40 h-40 rounded-full opacity-20 left-16 bg-primary -z-50 blur-xl"></div>
-        <div className="fixed h-40 bg-teal-500 rounded-full opacity-20 w-36 right-16 bottom-16 -z-50 blur-xl "></div>
+        <div className="sticky top-0 w-40 h-40 rounded-full opacity-20 left-16 bg-dprimary -z-50 blur-xl"></div>
+        <div className="fixed h-40 rounded-full bg-primary opacity-20 w-36 right-16 bottom-16 -z-50 blur-xl "></div>
       </div>
     </div>
   );

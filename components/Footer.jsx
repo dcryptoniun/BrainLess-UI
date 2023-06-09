@@ -20,8 +20,8 @@ export default function Footer() {
         >
           <Image
             src="/github.svg"
-            width={14}
-            height={14}
+            width={24}
+            height={24}
             alt="github"
             className=" invert dark:invert-0"
           />
