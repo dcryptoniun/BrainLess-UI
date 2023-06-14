@@ -1,9 +1,8 @@
 import Footer from "./components/Footer";
-import ThemeSwitch from "./components/ThemeSwitch";
 
 /* eslint-disable import/no-anonymous-default-export */
 export default {
-  docsRepositoryBase: "https://github.com/dcryptoniun/BrainLess-UI/",
+  docsRepositoryBase: "https://github.com/dcryptoniun/BrainLess-UI/tree/main/",
   logo: (
     <span className="inline-flex items-center text-xl font-bold no-underline ">
       BrainLess UI
@@ -12,15 +11,13 @@ export default {
   onBrokenLinks: "ignore",
   gitTimestamp: "",
   editLink: {
-    text: null,
-  },
-  extraContent: () => {
-    <>
-      <ThemeSwitch />
-    </>;
+    text: "Edit this page on GitHub",
   },
   project: {
     link: "https://github.com/dcryptoniun/BrainLess-UI",
+  },
+  toc: {
+    float: true,
   },
   sidebar: {
     titleComponent({ title, type }) {

@@ -1,11 +1,5 @@
 {
   "index": "💡 Introduction",
   "getting-started": "🚀 Getting Started",
-  "components": "💻 | Components",
-  "button": {
-    "title": "Button",
-    "type": "page",
-    "hidden": true,
-    "display": "hidden"
-  }
+  "components": "💻 | Components"
 }

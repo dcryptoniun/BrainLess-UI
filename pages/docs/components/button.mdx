@@ -1,20 +1,33 @@
 import React from "react";
+import { Tab, Tabs } from "nextra-theme-docs";
 import { Normalbutton, Borderbutton, Outlinebutton } from "/db/Button.jsx";
 
 <Normalbutton />
 
-<Borderbutton />
-
-<Outlinebutton />
-
-```jsx filename="testbutton" copy
-import React from "react";
-
-export default function Testbutton() {
-  return (
-    <button className="p-5 text-xl text-red-500 bg-green-500 border hover:bg-green-800">
-      Testbutton
+<Tabs items={["Small", "Medium", "Large"]}>
+  <Tab>
+    ```jsx copy
+    <button className="p-2 text-sm bg-green-500 hover:bg-green-800">
+      Small
     </button>
-  );
-}
-```
+    ```
+  </Tab>
+  <Tab>
+    ```jsx copy
+    <button className="p-2 text-lg bg-green-500 hover:bg-green-800">
+      Medium
+    </button>
+    ```
+  </Tab>
+  <Tab>
+    ```jsx copy
+    <button className="p-2 text-xl bg-green-500 hover:bg-green-800">
+      Large
+    </button>
+    ```
+  </Tab>
+</Tabs>
+
+{/* <Borderbutton /><Outlinebutton /> */}
+{/* prettier-ignore-start */}
+{/* prettier-ignore-end */}
