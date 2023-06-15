@@ -1,12 +1,23 @@
+import Image from "next/image";
 import Footer from "./components/Footer";
 
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   docsRepositoryBase: "https://github.com/dcryptoniun/BrainLess-UI/tree/main/",
-  logo: (
-    <span className="inline-flex items-center text-xl font-bold no-underline ">
-      BrainLess UI
-    </span>
+  logo: () => (
+    <>
+      <Image
+        src="/logo.png"
+        width={25}
+        height={25}
+        alt="logo"
+        loading="lazy"
+        className="w-auto h-auto p-2"
+      />
+      <span className="inline-flex items-center text-xl font-bold no-underline ">
+        BrainLess UI
+      </span>
+    </>
   ),
   onBrokenLinks: "ignore",
   gitTimestamp: "",
